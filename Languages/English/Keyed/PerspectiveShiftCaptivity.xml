@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Settings -->
+  <PSC_Set_Permadeath>Permadeath by default</PSC_Set_Permadeath>
+  <PSC_Set_PermadeathDesc>Default the permadeath option on when starting a captive run. If your captive dies, the run ends.</PSC_Set_PermadeathDesc>
+  <PSC_Set_AllowSelling>Allow being sold to new owners</PSC_Set_AllowSelling>
+  <PSC_Set_AllowSellingDesc>Captors can hand you off to another faction, which moves you to a new settlement.</PSC_Set_AllowSellingDesc>
+  <PSC_Set_LethalOnEscape>Captors may use lethal force</PSC_Set_LethalOnEscape>
+  <PSC_Set_LethalOnEscapeDesc>If you resist or try to flee, captors can escalate to lethal force instead of only subduing you.</PSC_Set_LethalOnEscapeDesc>
+  <PSC_Set_Minigame>Struggle minigame</PSC_Set_Minigame>
+  <PSC_Set_MinigameDesc>When captors seize you, play a struggle minigame to try to break free. If off, seizures resolve automatically as a loss.</PSC_Set_MinigameDesc>
+  <PSC_Set_ShowHud>Show captivity status panel</PSC_Set_ShowHud>
+  <PSC_Set_ShowHudDesc>Show the on-screen panel with your defiance, how closely you are watched, and your restraints.</PSC_Set_ShowHudDesc>
+  <PSC_Set_Feed>Captors feed you</PSC_Set_Feed>
+  <PSC_Set_FeedDesc>Captors keep you fed enough to survive, since they want their property alive and sellable. Turn this off for a brutal run where you must find your own food or starve.</PSC_Set_FeedDesc>
+  <PSC_Set_DisciplineInterval>Discipline check interval: {0} days</PSC_Set_DisciplineInterval>
+  <PSC_Set_HarassInterval>Harassment check interval: {0} days</PSC_Set_HarassInterval>
+  <PSC_Set_SellInterval>Sold check interval: {0} days</PSC_Set_SellInterval>
+  <PSC_Set_SellChance>Chance to be sold per check: {0}%</PSC_Set_SellChance>
+  <PSC_Set_AllowHarvest>Allow organ harvesting</PSC_Set_AllowHarvest>
+  <PSC_Set_AllowHarvestDesc>Captors may occasionally cut out a spare organ to sell. It never takes a vital organ, so it will not kill you, but it is grim. Turn this off for a less brutal run.</PSC_Set_AllowHarvestDesc>
+  <PSC_Set_HarvestInterval>Organ harvest check interval: {0} days</PSC_Set_HarvestInterval>
+  <PSC_Set_HarvestChance>Chance to harvest per check: {0}%</PSC_Set_HarvestChance>
+
+  <!-- Start -->
+  <PSC_SettingUpCaptivity>Setting up captivity...</PSC_SettingUpCaptivity>
+  <PSC_Letter_CaptiveTitle>Captured</PSC_Letter_CaptiveTitle>
+  <PSC_Letter_CaptiveBody>{0} is now a captive of {1}, held inside their settlement. You have nothing and almost no freedom. Endure, watch for weakness, and find a way out.</PSC_Letter_CaptiveBody>
+
+  <!-- Survival -->
+  <PSC_Mote_Fed>Fed</PSC_Mote_Fed>
+  <PSC_Msg_Fed>The captors tossed you a ration.</PSC_Msg_Fed>
+  <PSC_Msg_Scavenged>You scavenged a few scraps to stay alive.</PSC_Msg_Scavenged>
+  <PSC_Btn_Steal>Steal {0}  ({1}%)</PSC_Btn_Steal>
+  <PSC_Mote_Stole>Stolen</PSC_Mote_Stole>
+  <PSC_Msg_Stole>You wolfed down the stolen {0} before anyone noticed.</PSC_Msg_Stole>
+  <PSC_Msg_StealCaught>You were caught stealing food.</PSC_Msg_StealCaught>
+
+  <!-- Discipline -->
+  <PSC_Mote_Disciplined>Disciplined</PSC_Mote_Disciplined>
+  <PSC_Msg_Disciplined>{0} is being disciplined by the captors.</PSC_Msg_Disciplined>
+
+  <!-- Harass -->
+  <PSC_Mote_Harassed>Humiliated</PSC_Mote_Harassed>
+
+  <!-- Resisting -->
+  <PSC_Msg_Resisted>You struck a captor. They will make you regret it.</PSC_Msg_Resisted>
+
+  <!-- Sold -->
+  <PSC_Letter_SoldTitle>Sold</PSC_Letter_SoldTitle>
+  <PSC_Letter_SoldBody>{0} has been sold by {1} to {2} and dragged to a new settlement. New owners, new cruelties, and a tighter watch than before.</PSC_Letter_SoldBody>
+  <PSC_Letter_AuctionedTitle>Auctioned</PSC_Letter_AuctionedTitle>
+  <PSC_Letter_AuctionedBody>{0} was put up on the slave market by {1} and bought by {2}. The auctioneer barely glanced at you. New owners, new cruelties, and a tighter watch than before.</PSC_Letter_AuctionedBody>
+
+  <!-- Status HUD -->
+  <PSC_Hud_Title>Captivity</PSC_Hud_Title>
+  <PSC_Hud_Held>Held by {0}</PSC_Hud_Held>
+  <PSC_Hud_BeingSold>Being sold</PSC_Hud_BeingSold>
+  <PSC_Hud_Defiance>Defiance</PSC_Hud_Defiance>
+  <PSC_Hud_Heat>Watched</PSC_Hud_Heat>
+  <PSC_Hud_Restraints_Shackled>Shackled</PSC_Hud_Restraints_Shackled>
+  <PSC_Hud_Restraints_Collared>collared</PSC_Hud_Restraints_Collared>
+  <PSC_Hud_Restraints_None>Unbound</PSC_Hud_Restraints_None>
+  <PSC_Hud_Escape_Low>Their guard is down</PSC_Hud_Escape_Low>
+  <PSC_Hud_Escape_Mid>You are being watched</PSC_Hud_Escape_Mid>
+  <PSC_Hud_Escape_High>Watched closely</PSC_Hud_Escape_High>
+
+  <!-- Seize + struggle minigame -->
+  <PSC_Struggle_Title>Struggle!</PSC_Struggle_Title>
+  <PSC_Struggle_Desc>They have grabbed you and are dragging you {0}. Mash Space or click Struggle to break free before it is too late.</PSC_Struggle_Desc>
+  <PSC_Struggle_Time>Time left: {0}s</PSC_Struggle_Time>
+  <PSC_Struggle_Button>Struggle!</PSC_Struggle_Button>
+  <PSC_Struggle_GiveIn>Stop resisting</PSC_Struggle_GiveIn>
+  <PSC_Action_Discipline>off for a beating</PSC_Action_Discipline>
+  <PSC_Action_Harass>off to be humiliated</PSC_Action_Harass>
+  <PSC_Action_Sell>off to be sold</PSC_Action_Sell>
+  <PSC_Action_Harvest>to the surgeon</PSC_Action_Harvest>
+  <PSC_Mote_BrokeFree>Broke free!</PSC_Mote_BrokeFree>
+  <PSC_Msg_BrokeFree>You wrenched free of their grip. The captors will not take that lightly.</PSC_Msg_BrokeFree>
+  <PSC_Msg_Subdued>The captors beat you down and drag you back.</PSC_Msg_Subdued>
+
+  <!-- Organ harvest -->
+  <PSC_Mote_Harvested>Harvested</PSC_Mote_Harvested>
+  <PSC_Letter_HarvestTitle>Organ taken</PSC_Letter_HarvestTitle>
+  <PSC_Letter_HarvestBody>{0}'s captors cut out a {1} to sell. To them you are worth more in pieces. It will not be the last thing they take.</PSC_Letter_HarvestBody>
+
+  <!-- Lockpicking -->
+  <PSC_Btn_Pick>Pick the lock</PSC_Btn_Pick>
+  <PSC_Lock_Title>Pick the lock</PSC_Lock_Title>
+  <PSC_Lock_Desc>Set each pin. Click Set, or press Space, when the slider is over the green mark.</PSC_Lock_Desc>
+  <PSC_Lock_DescWatched>A captor is watching. Set the pins fast, before their suspicion boils over.</PSC_Lock_DescWatched>
+  <PSC_Lock_Pins>Pins set: {0} / {1}</PSC_Lock_Pins>
+  <PSC_Lock_Suspicion>Suspicion</PSC_Lock_Suspicion>
+  <PSC_Lock_Set>Set!</PSC_Lock_Set>
+  <PSC_Lock_Miss>Slip!</PSC_Lock_Miss>
+  <PSC_Lock_Button>Set pin</PSC_Lock_Button>
+  <PSC_Lock_Stop>Stop</PSC_Lock_Stop>
+  <PSC_Msg_LockPicked>You picked the lock.</PSC_Msg_LockPicked>
+  <PSC_Msg_LockCaught>A captor caught you tampering with the lock.</PSC_Msg_LockCaught>
+
+  <!-- Escape + restraints -->
+  <PSC_Restraint_Title>Work your restraints</PSC_Restraint_Title>
+  <PSC_Restraint_Desc>Twist and pull at the shackles before a guard notices. Mash Space or click Struggle to work them loose.</PSC_Restraint_Desc>
+  <PSC_Btn_Work>Work at your restraints</PSC_Btn_Work>
+  <PSC_Btn_Slip>Slip away  ({0}%)</PSC_Btn_Slip>
+  <PSC_Tip_Watched>You are being watched too closely right now.</PSC_Tip_Watched>
+  <PSC_Msg_ShacklesOff>You worked your shackles loose.</PSC_Msg_ShacklesOff>
+  <PSC_Msg_CollarOff>You got the collar off.</PSC_Msg_CollarOff>
+  <PSC_Msg_RestraintFail>You could not get them loose this time.</PSC_Msg_RestraintFail>
+  <PSC_Msg_CaughtEscaping>You were caught trying to slip away.</PSC_Msg_CaughtEscaping>
+  <PSC_Letter_EscapedTitle>Escaped</PSC_Letter_EscapedTitle>
+  <PSC_Letter_EscapedBody>{0} slipped out of the settlement and vanished into the wild. You are free. Set up a camp here, then travel or settle as you see fit.</PSC_Letter_EscapedBody>
+
+  <!-- Freed -->
+  <PSC_Letter_FreeTitle>Free</PSC_Letter_FreeTitle>
+  <PSC_Letter_FreeBody>{0} is free of the captors at last. The world outside is open and dangerous, but it belongs to no one now.</PSC_Letter_FreeBody>
+
+</LanguageData>

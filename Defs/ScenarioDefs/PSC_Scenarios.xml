@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ScenarioDef ParentName="ScenarioBase">
+    <defName>PSC_Captive</defName>
+    <label>Captive</label>
+    <description>You are not a colonist. You are property.\n\nYou wake in the grip of a hostile faction, held inside their settlement with a collar on your neck and nothing to your name. Your freedom is almost gone: you can be confined, beaten, sold, and harassed. Survive, earn what slack you can, and find your way out.\n\nThis scenario plays as a single pawn and requires Perspective Shift. It is punishing and unfair by design.</description>
+    <scenario>
+      <summary>Begin as a lone captive of a hostile faction, held inside their settlement. Little agency, high stakes. Requires Perspective Shift.</summary>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>1</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <visible>false</visible>
+          <method>Standing</method>
+        </li>
+        <li Class="ScenPart_NoPossessions">
+          <def>NoPossessions</def>
+        </li>
+        <li Class="PerspectiveShiftCaptivity.ScenPart_Captivity">
+          <def>PSC_Captivity</def>
+        </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>You do not remember how you got here, only that you woke in chains.\n\nThe collar on your neck is not yours to remove. The people around you are not your friends. To them you are stock: something to be worked, disciplined, sold, and used.\n\nYou have no gear, no colony, and almost no freedom. Watch. Endure. Learn their routines. When the moment comes, take it.</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+</Defs>

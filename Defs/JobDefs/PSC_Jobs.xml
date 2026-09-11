@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <JobDef>
+    <defName>PSC_DisciplineCaptive</defName>
+    <driverClass>PerspectiveShiftCaptivity.JobDriver_DisciplineCaptive</driverClass>
+    <reportString>disciplining TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+
+  <JobDef>
+    <defName>PSC_HarassCaptive</defName>
+    <driverClass>PerspectiveShiftCaptivity.JobDriver_HarassCaptive</driverClass>
+    <reportString>harassing TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+
+  <JobDef>
+    <defName>PSC_FeedCaptive</defName>
+    <driverClass>PerspectiveShiftCaptivity.JobDriver_FeedCaptive</driverClass>
+    <reportString>feeding TargetA.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+
+  <JobDef>
+    <defName>PSC_SeizeCaptive</defName>
+    <driverClass>PerspectiveShiftCaptivity.JobDriver_SeizeCaptive</driverClass>
+    <reportString>seizing TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+
+</Defs>

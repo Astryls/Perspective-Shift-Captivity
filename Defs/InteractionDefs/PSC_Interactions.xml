@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- SFW verbal harassment. Emitted to the play log so SpeakUp / Interaction Bubbles voice it. -->
+  <InteractionDef>
+    <defName>PSC_Harass</defName>
+    <label>harass</label>
+    <symbol>Things/Mote/SpeechSymbols/Insult</symbol>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] spat at [RECIPIENT_nameDef] and told [RECIPIENT_objective] to kneel.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] mocked [RECIPIENT_nameDef], calling [RECIPIENT_objective] worthless stock.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] reminded [RECIPIENT_nameDef] that [RECIPIENT_pronoun] belongs to them now.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] threatened to sell [RECIPIENT_nameDef] to something far worse.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] jeered at [RECIPIENT_nameDef] and yanked [RECIPIENT_possessive] collar.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] barked pointless orders at [RECIPIENT_nameDef] for amusement.</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] laughed at [RECIPIENT_nameDef] and said no one is coming for [RECIPIENT_objective].</li>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] loomed over [RECIPIENT_nameDef] until [RECIPIENT_pronoun] looked away.</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+
+</Defs>

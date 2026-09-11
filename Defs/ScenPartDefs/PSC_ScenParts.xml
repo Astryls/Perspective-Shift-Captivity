@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ScenPartDef>
+    <defName>PSC_Captivity</defName>
+    <label>captivity</label>
+    <scenPartClass>PerspectiveShiftCaptivity.ScenPart_Captivity</scenPartClass>
+    <category>Misc</category>
+  </ScenPartDef>
+
+</Defs>

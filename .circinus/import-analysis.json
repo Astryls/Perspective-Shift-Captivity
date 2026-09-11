@@ -1,0 +1,70 @@
+{
+  "destFolder": "13ef20d954fa",
+  "name": "Perspective Shift - Captivity",
+  "packageId": "astryl.PerspectiveShiftCaptivity",
+  "structure": {
+    "rootContentDirs": [
+      "Assemblies",
+      "Defs",
+      "Languages",
+      "Patches",
+      "Textures"
+    ],
+    "versionedRoots": [],
+    "hasLoadFolders": false,
+    "hasSource": true,
+    "hasCsproj": true,
+    "hasAssemblies": true,
+    "empty": false
+  },
+  "findings": [
+    {
+      "rule": "missing-dependency",
+      "tone": "warn",
+      "file": "About/About.xml",
+      "message": "Declares 2 hard dependencies not in this workspace: \"Harmony\" and \"Perspective Shift\". RimWorld refuses to run the mod until they are installed."
+    }
+  ],
+  "dependencies": [
+    {
+      "packageId": "brrainz.harmony",
+      "displayName": "Harmony",
+      "state": "absent"
+    },
+    {
+      "packageId": "ferny.PerspectiveShift",
+      "displayName": "Perspective Shift",
+      "state": "absent"
+    }
+  ],
+  "defCount": 13,
+  "defTypes": [
+    {
+      "defType": "ThoughtDef",
+      "count": 5
+    },
+    {
+      "defType": "JobDef",
+      "count": 4
+    },
+    {
+      "defType": "HediffDef",
+      "count": 1
+    },
+    {
+      "defType": "InteractionDef",
+      "count": 1
+    },
+    {
+      "defType": "ScenarioDef",
+      "count": 1
+    },
+    {
+      "defType": "ScenPartDef",
+      "count": 1
+    }
+  ],
+  "csFiles": 21,
+  "elapsedMs": 97,
+  "error": null
+}
